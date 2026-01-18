@@ -1,6 +1,8 @@
+'use client';
+
 export default function Home() {
   return (
-    <main className="relative w-full h-screen overflow-hidden bg-black">
+    <main className="relative w-full h-screen overflow-hidden bg-black font-serif">
       {/* Video na pozadí */}
       <video
         autoPlay
@@ -12,10 +14,9 @@ export default function Home() {
         <source src="/video.mp4" type="video/mp4" />
       </video>
 
-      {/* Prekrytie */}
+      {/* Prekrytie s textom */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full bg-black/40 text-white text-center px-4">
         
-        {/* Nadpis s animáciou definovanou cez inline štýl pre istotu */}
         <h1 
           className="text-5xl md:text-8xl font-light tracking-[0.2em] italic mb-6"
           style={{
@@ -44,7 +45,7 @@ export default function Home() {
         </p>
       </div>
 
-      {/* CSS Animácie vložené bezpečne */}
+      {/* CSS Animácie definované priamo tu */}
       <style dangerouslySetInnerHTML={{ __html: `
         @keyframes fadeInUp {
           from { opacity: 0; transform: translateY(30px); }
