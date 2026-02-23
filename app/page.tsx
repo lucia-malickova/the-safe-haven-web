@@ -68,7 +68,20 @@ export default function Home() {
 
         </div>
       </section>
-
+{/* THE LAB SHORTCUT */}
+<section className="py-20 border-t border-white/5 bg-zinc-950/20">
+  <div className="max-w-4xl mx-auto px-6 text-center">
+    <h2 className="text-[10px] tracking-[0.6em] uppercase opacity-40 mb-8 font-bold">The Daily Evolution</h2>
+    <a href="/lab" className="group">
+      <h3 className="text-2xl tracking-[0.3em] uppercase mb-4 group-hover:text-blue-500 transition-colors underline decoration-blue-500/30 underline-offset-8">
+        Enter the Lab
+      </h3>
+      <p className="text-[9px] tracking-[0.4em] uppercase opacity-30 group-hover:opacity-60 transition-opacity">
+        Live research & progress logs
+      </p>
+    </a>
+  </div>
+</section>
       {/* FOOTER */}
       <footer className="py-20 border-t border-white/5 text-center">
         <div className="animate-pulse inline-block w-2 h-2 bg-blue-500 rounded-full mb-4"></div>
