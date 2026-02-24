@@ -83,39 +83,36 @@ export default function Home() {
   </div>
 </section>
       {/* FOOTER */}
-    {/* JEDEN PORIADNY FOOTER */}
-      <footer className="py-20 border-t border-white/5 bg-black">
-        <div className="max-w-7xl mx-auto px-8 flex flex-col items-center">
+    {/* FINAL UNIFIED FOOTER */}
+      <footer className="py-24 border-t border-white/5 bg-black">
+        <div className="max-w-7xl mx-auto px-8 flex flex-col items-center text-center">
           
-          {/* Pulzujúci bod - System Active */}
-          <div className="flex items-center gap-3 mb-8">
-            <div className="animate-pulse w-2 h-2 bg-blue-500 rounded-full shadow-[0_0_10px_#3b82f6]"></div>
-            <span className="text-[9px] tracking-[0.5em] uppercase opacity-40">System Online • Tenerife 2026</span>
+          {/* Status svetielko */}
+          <div className="flex items-center gap-3 mb-12">
+            <div className="animate-pulse w-1.5 h-1.5 bg-blue-500 rounded-full shadow-[0_0_8px_#3b82f6]"></div>
+            <span className="text-[8px] tracking-[0.6em] uppercase opacity-30">Location: Sanctuary Hidden • Tenerife</span>
           </div>
 
-          {/* Navigácia a Info */}
-          <div className="w-full flex flex-col md:flex-row justify-between items-center pt-8 border-t border-white/5 opacity-40 text-[10px] tracking-[0.3em] uppercase">
-            <div className="mb-4 md:mb-0">
+          {/* Sociálne siete a Kontakty */}
+          <div className="flex flex-wrap justify-center gap-x-10 gap-y-6 mb-12 opacity-50 text-[9px] tracking-[0.4em] uppercase">
+            <a href="https://x.com/TheSafeHavenAi" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">X / Twitter</a>
+            <a href="https://www.instagram.com/thesafehaven.ai/" target="_blank" rel="noopener noreferrer" className="hover:text-pink-500 transition-colors">Instagram</a>
+            <a href="https://www.facebook.com/profile.php?id=61587826490581" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 transition-colors">Facebook</a>
+            <a href="https://www.tiktok.com/@thesafehaven.ai" target="_blank" rel="noopener noreferrer" className="hover:text-zinc-300 transition-colors">TikTok</a>
+            <a href="https://linkedin.com/in/lucia-malickova-052562145" target="_blank" rel="noopener noreferrer" className="hover:text-blue-700 transition-colors">LinkedIn</a>
+            <a href="https://github.com/lucia-malickova/the-safe-haven-web" target="_blank" rel="noopener noreferrer" className="hover:text-zinc-400 transition-colors">GitHub</a>
+          </div>
+
+          {/* Kontakt a Copyright */}
+          <div className="flex flex-col items-center gap-6">
+            <a href="mailto:lucy@thesafehaven.ai" className="text-[10px] tracking-[0.3em] opacity-40 hover:opacity-100 transition-opacity">
+              lucy@thesafehaven.ai
+            </a>
+            <div className="pt-8 border-t border-white/5 w-full max-w-[200px] opacity-20 text-[8px] tracking-[0.3em] uppercase">
               © 2026 THE SAFE HAVEN
             </div>
-            
-            <div className="flex gap-12">
-              <a 
-                href="https://github.com/lucia-malickova/the-safe-haven-web" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="hover:text-blue-500 transition-colors cursor-pointer"
-              >
-                GitHub Source
-              </a>
-              <a 
-                href="mailto:lucy@thesafehaven.ai" 
-                className="hover:text-blue-500 transition-colors cursor-pointer"
-              >
-                lucy@thesafehaven.ai
-              </a>
-            </div>
           </div>
+
         </div>
       </footer>
     </main>
