@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/vue";
 import "./globals.css";
 
 export const metadata = {
@@ -12,6 +13,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="sk">
+      import { Analytics } from '@vercel/analytics/react';
+
+// ... vnútri RootLayout return:
+<Analytics />
       <body>{children}</body>
     </html>
   );
