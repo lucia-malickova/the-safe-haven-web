@@ -49,6 +49,11 @@ export default function LabPage() {
       desc: "The bridge is built. Safe Haven officially live on the network.",
       image: "/web.jpeg", // MÁŠ FOTKU
       hasImage: true
+    },
+    {
+      date: "24 / 02 / 2026",
+      title: "Neural Uplink Initialized",
+      desc: "Established official social media nodes. The mind of the sanctuary is no longer air-gapped from the public. Communication channels live: Instagram, X, TikTok, Facebook.",
     }
   ];
 
