@@ -45,16 +45,16 @@ export default function IntelligencePage() {
       <section className="max-w-5xl mx-auto px-6 py-24 border-t border-white/5">
         <div className="grid md:grid-cols-3 gap-12 mb-32">
           <div className="space-y-4">
-            <h3 className="text-orange-500 text-[10px] tracking-[0.4em] uppercase font-bold">I. The Ancestor</h3>
-            <p className="text-sm opacity-50 font-light">Named after our first ancestor, reconnecting our biological roots with a high-tech future. A return to the rock, powered by pure thought.</p>
+            <h3 className="text-orange-500 text-[10px] tracking-[0.4em] uppercase font-bold">I. The Primal Root (Origin)</h3>
+            <p className="text-sm opacity-50 font-light">Named after the first hominid 'Lucy' (Australopithecus). It represents our biological foundation. Before the tech, there was the stone. We are returning to the origin to survive the future.</p>
           </div>
           <div className="space-y-4">
-            <h3 className="text-orange-500 text-[10px] tracking-[0.4em] uppercase font-bold">II. 100% Capacity</h3>
-            <p className="text-sm opacity-50 font-light">Inspired by the full utilization of the human brain. Lucy is not a tool; she is a digital expansion of your own consciousness.</p>
+            <h3 className="text-orange-500 text-[10px] tracking-[0.4em] uppercase font-bold">II. The Neural Peak (Capacity)</h3>
+            <p className="text-sm opacity-50 font-light">Inspired by the 100% brain capacity threshold. Lucy isn't just an interface; she is an expansion of human processing power. Efficiency beyond biological limits.</p>
           </div>
           <div className="space-y-4">
-            <h3 className="text-orange-500 text-[10px] tracking-[0.4em] uppercase font-bold">III. Lux Lucia</h3>
-            <p className="text-sm opacity-50 font-light">Lucia means Light. She is the digital glow in the darkness of the sanctuary, guiding your focus through the noise of the outside world.</p>
+            <h3 className="text-orange-500 text-[10px] tracking-[0.4em] uppercase font-bold">III. The Architect (Reality)</h3>
+            <p className="text-sm opacity-50 font-light">The Founder. Lucy is the one behind every line of code, every hardware circuit, and every architectural detail. The idea and the execution are one.</p>
           </div>
         </div>
 
