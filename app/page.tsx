@@ -83,23 +83,41 @@ export default function Home() {
   </div>
 </section>
       {/* FOOTER */}
-      <footer className="py-20 border-t border-white/5 text-center">
-        <div className="animate-pulse inline-block w-2 h-2 bg-blue-500 rounded-full mb-4"></div>
-        <p className="text-[9px] tracking-[0.5em] uppercase opacity-30">The Safe Haven Core • Tenerife 2026</p>
+    {/* JEDEN PORIADNY FOOTER */}
+      <footer className="py-20 border-t border-white/5 bg-black">
+        <div className="max-w-7xl mx-auto px-8 flex flex-col items-center">
+          
+          {/* Pulzujúci bod - System Active */}
+          <div className="flex items-center gap-3 mb-8">
+            <div className="animate-pulse w-2 h-2 bg-blue-500 rounded-full shadow-[0_0_10px_#3b82f6]"></div>
+            <span className="text-[9px] tracking-[0.5em] uppercase opacity-40">System Online • Tenerife 2026</span>
+          </div>
+
+          {/* Navigácia a Info */}
+          <div className="w-full flex flex-col md:flex-row justify-between items-center pt-8 border-t border-white/5 opacity-40 text-[10px] tracking-[0.3em] uppercase">
+            <div className="mb-4 md:mb-0">
+              © 2026 THE SAFE HAVEN
+            </div>
+            
+            <div className="flex gap-12">
+              <a 
+                href="https://github.com/lucia-malickova/the-safe-haven-web" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="hover:text-blue-500 transition-colors cursor-pointer"
+              >
+                GitHub Source
+              </a>
+              <a 
+                href="mailto:lucy@thesafehaven.ai" 
+                className="hover:text-blue-500 transition-colors cursor-pointer"
+              >
+                lucy@thesafehaven.ai
+              </a>
+            </div>
+          </div>
+        </div>
       </footer>
-<footer className="p-8 flex justify-between items-center opacity-40 text-[10px] tracking-[0.3em] uppercase">
-  <div>
-    © 2026 THE SAFE HAVEN
-  </div>
-  <div className="flex gap-8">
-    <a href="https://github.com/lucia-malickova/the-safe-haven-web" target="_blank" className="hover:text-blue-500 transition-colors">
-      GitHub
-    </a>
-    <a href="mailto:lucy@thesafehaven.ai" className="hover:text-blue-500 transition-colors">
-      lucy@thesafehaven.ai
-    </a>
-  </div>
-</footer>
     </main>
   );
 }
