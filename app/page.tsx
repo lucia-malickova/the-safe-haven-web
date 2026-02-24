@@ -98,8 +98,8 @@ export default function Home() {
             <a href="https://x.com/TheSafeHavenAi" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition-colors">X / Twitter</a>
             <a href="https://www.instagram.com/thesafehaven.ai/" target="_blank" rel="noopener noreferrer" className="hover:text-pink-500 transition-colors">Instagram</a>
             <a href="https://www.facebook.com/profile.php?id=61587826490581" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 transition-colors">Facebook</a>
-            <a href="https://www.tiktok.com/@thesafehaven.ai" target="_blank" rel="noopener noreferrer" className="hover:text-zinc-300 transition-colors">TikTok</a>
-            <a href="https://linkedin.com/in/lucia-malickova-052562145" target="_blank" rel="noopener noreferrer" className="hover:text-blue-700 transition-colors">LinkedIn</a>
+            <a href="https://www.tiktok.com/@safehavenai?lang=sk" target="_blank" rel="noopener noreferrer" className="hover:text-zinc-300 transition-colors">TikTok</a>
+            <a href="https://www.linkedin.com/in/lucia-mal%C3%AD%C4%8Dkov%C3%A1-9b3a5552/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-700 transition-colors">LinkedIn</a>
             <a href="https://github.com/lucia-malickova/the-safe-haven-web" target="_blank" rel="noopener noreferrer" className="hover:text-zinc-400 transition-colors">GitHub</a>
           </div>
 
