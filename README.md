@@ -23,7 +23,7 @@ The development is tracked in real-time within the `/lab` section of the web, do
 ---
 
 ### 📬 Contact
-**Architect / Visionary:** Lucia (Lucy)  
+**Architect / Visionary:** Lucy  
 **Email:** [lucy@thesafehaven.ai](mailto:lucy@thesafehaven.ai)  
 **Web:** [thesafehaven.ai](https://thesafehaven.ai)
 
