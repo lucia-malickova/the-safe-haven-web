@@ -87,7 +87,19 @@ export default function Home() {
         <div className="animate-pulse inline-block w-2 h-2 bg-blue-500 rounded-full mb-4"></div>
         <p className="text-[9px] tracking-[0.5em] uppercase opacity-30">The Safe Haven Core • Tenerife 2026</p>
       </footer>
-
+<footer className="p-8 flex justify-between items-center opacity-40 text-[10px] tracking-[0.3em] uppercase">
+  <div>
+    © 2026 THE SAFE HAVEN
+  </div>
+  <div className="flex gap-8">
+    <a href="https://github.com/lucia-malickova/the-safe-haven-web" target="_blank" className="hover:text-blue-500 transition-colors">
+      GitHub
+    </a>
+    <a href="mailto:lucy@thesafehaven.ai" className="hover:text-blue-500 transition-colors">
+      lucy@thesafehaven.ai
+    </a>
+  </div>
+</footer>
     </main>
   );
 }
