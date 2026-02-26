@@ -2,7 +2,7 @@ import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
 export const metadata = {
-  title: "The Safe Haven",
+  title: "The Safe Haven AI",
   description: "AI Powered Retreats",
 };
 
