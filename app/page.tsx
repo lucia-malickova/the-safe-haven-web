@@ -20,7 +20,7 @@ export default function Home() {
       <section className="py-32 px-6 max-w-5xl mx-auto text-center">
         <h2 className="text-[10px] tracking-[0.6em] uppercase text-blue-400 mb-10 font-bold">The Philosophy</h2>
         <h3 className="text-3xl md:text-5xl font-extralight leading-tight uppercase tracking-widest mb-10">
-          Reverse Aging <span className="italic opacity-50 text-2xl md:text-4xl">inside</span> the Stone.
+          Your intelligence <span className="italic opacity-50 text-2xl md:text-4xl">stays inside</span> the Stone.
         </h3>
         <p className="text-lg md:text-xl opacity-60 font-extralight leading-relaxed max-w-3xl mx-auto">
           In a world of constant surveillance, Safe Haven offers a sanctuary where your data never leaves the rock. 
