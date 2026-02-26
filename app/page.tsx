@@ -9,23 +9,23 @@ export default function Home() {
         </video>
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
           <h1 className="text-4xl md:text-8xl font-extralight tracking-[0.4em] uppercase mb-4">Safe Haven</h1>
-          <p className="text-sm md:text-xl tracking-[0.3em] uppercase opacity-60">Neural Sanctuary • Ancient DNA</p>
+          <p className="text-sm md:text-xl tracking-[0.3em] uppercase opacity-60">Sovereign Space • Private Intelligence • Rock-Solid Security</p>
           <div className="mt-12 max-w-xl text-[10px] md:text-xs tracking-[0.3em] uppercase opacity-40 leading-relaxed">
-            Not a shelter for survival, but a temple for regeneration.
+            Not just a shelter, but a fortress for your mind, soul, and data.
           </div>
         </div>
       </section>
 
-      {/* 2. THE PHILOSOPHY: Bio-Regeneration vs. Steel Shelters */}
+      {/* 2. THE PHILOSOPHY: Private AI vs. Public Vulnerability */}
       <section className="py-32 px-6 max-w-5xl mx-auto text-center">
         <h2 className="text-[10px] tracking-[0.6em] uppercase text-blue-400 mb-10 font-bold">The Philosophy</h2>
         <h3 className="text-3xl md:text-5xl font-extralight leading-tight uppercase tracking-widest mb-10">
           Reverse Aging <span className="italic opacity-50 text-2xl md:text-4xl">inside</span> the Stone.
         </h3>
         <p className="text-lg md:text-xl opacity-60 font-extralight leading-relaxed max-w-3xl mx-auto">
-          While traditional shelters trap you in steel cages where the body withers, Safe Haven uses 
-          ancient Roman-Egyptian alchemy and neural frequencies to align your biology with the Earth. 
-          Inside these walls, you don't just hide—you heal.
+          In a world of constant surveillance, Safe Haven offers a sanctuary where your data never leaves the rock. 
+          Built on ancient architectural wisdom and powered by local, private AI, we provide an environment 
+          of total autonomy—from water and energy to your digital footprint.
         </p>
       </section>
 
