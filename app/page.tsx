@@ -55,9 +55,9 @@ export default function Home() {
           
           {[
             { id: '01', title: 'Architecture', desc: 'Egyptian binders & Copper cooling.' },
-            { id: '02', title: 'Biohacking', desc: 'Schumann Resonance & Ion balance.' },
-            { id: '03', title: 'Intelligence', desc: 'Local AI Node & Starlink Link.' },
-            { id: '04', title: 'Autonomy', desc: 'Total Solar & Water Independence.' }
+            { id: '02', title: 'Intelligence', desc: 'Local AI Node & Starlink Link.' },
+            { id: '03', title: 'Autonomy', desc: 'Total Solar & Water Independence.' },
+            { id: '04', title: 'Biohacking', desc: 'Longevity through Material Science & Data.' },
           ].map((pillar) => (
             <a key={pillar.id} href={`/${pillar.title.toLowerCase()}`} className="group border border-white/10 p-12 flex flex-col items-center justify-center hover:bg-white/[0.02] transition-all duration-700">
               <span className="text-[10px] opacity-20 mb-6 font-bold">{pillar.id}</span>
