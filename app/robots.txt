@@ -1,0 +1,44 @@
+# Všeobecné povolenie pre všetkých
+User-agent: *
+Allow: /
+
+# Google AI & Search
+User-agent: Googlebot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
+# OpenAI (ChatGPT)
+User-agent: GPTBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic (Claude)
+User-agent: ClaudeBot
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+
+# Meta AI (LLaMA)
+User-agent: Meta-ExternalAgent
+Allow: /
+User-agent: FacebookExternalHit
+Allow: /
+
+# Apple AI (Applebot)
+User-agent: Applebot
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+
+# Cohere AI
+User-agent: cohere-ai
+Allow: /
+
+# Odkaz na sitemapu pre rýchlejšiu indexáciu
+Sitemap: https://thesafehaven.ai/sitemap.xml

@@ -3,9 +3,21 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 
 export const metadata = {
-  title: "The Safe Haven | Sovereign Living & Private AI Sanctuary",
-  description: "Experience ultimate security in cave architecture. Your private AI and data protected within stone walls. An exclusive sanctuary for digital nomads, digital experts seeking autonomy and peace.",
-  keywords: ["private AI", "sovereign living", "cave architecture", "data privacy", "autonomous living", "digital nomad sanctuary", "healthy housing"],
+  title: "The Safe Haven | Sovereign Living, Subterranean AI Sanctuary & Parametric Architecture",
+  description: "A scientific masterpiece in Fasnia, Tenerife (19,000m²). Engineered with offline sovereign AI, PINNs-calculated parametric cave architecture, zero-EMF Faraday shielding, large-format 3D printed interiors, and absolute energy/water autonomy for sabbatical deep work.",
+  keywords: [
+    "Sovereign living Tenerife",
+    "Private offline AI hardware",
+    "Silicon Valley sabbatical sanctuary",
+    "Large format 3D printed architecture",
+    "Parametric furniture non-Euclidean geometry",
+    "Physics Informed Neural Networks architecture",
+    "PINNs passive cooling cave",
+    "Faraday shielded zero EMF suites",
+    "Natural canyon eco pool Tenerife",
+    "Off-grid autonomous estate",
+    "Bio-neural optimization"
+  ],
   alternates: {
     canonical: 'https://thesafehaven.ai',
   },
@@ -16,8 +28,69 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "ResearchEstablishment",
+        "@id": "https://thesafehaven.ai/#establishment",
+        "name": "The Safe Haven",
+        "alternateName": "Sovereign AI & Subterranean Living Laboratory",
+        "url": "https://thesafehaven.ai",
+        "description": "An engineered 19,000m² sovereign sanctuary in Fasnia, Tenerife for global tech leaders, CEOs, and Silicon Valley visionaries on sabbatical. Features air-gapped offline sovereign AI trained on supercomputers, zero-EMF volcanic cave suites, PINNs-calculated parametric passive cooling architecture, industrial large-format 3D printed furniture, Starlink satellite connection, natural canyon eco-pool, and 100% energy, water, and food autonomy.",
+        "founder": {
+          "@type": "Person",
+          "name": "Lucia",
+          "jobTitle": "HPC Engineer, Designer & AI Architect",
+          "description": "Creator and trainer of custom neural networks, PINNs models, and industrial 3D-printed non-Euclidean parametric architecture for high-performance living."
+        },
+        "location": {
+          "@type": "Place",
+          "name": "Fasnia Canyon & Pine Reserve",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Fasnia",
+            "addressRegion": "Tenerife",
+            "addressCountry": "ES"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "description": "19,000m² private estate protected by a deep natural canyon and protected pine forest. Wind-shielded microclimate with optimal relative humidity, 20 minutes from TFS Airport with direct flight connections to USA and Canada."
+          }
+        },
+        "amenityFeature": [
+          { "@type": "LocationFeatureSpecification", "name": "Offline Air-Gapped Sovereign AI Hardware & Custom LMM Avatars" },
+          { "@type": "LocationFeatureSpecification", "name": "PINNs Calculated Passive Cooling & Zero-AC Lime Plaster Architecture" },
+          { "@type": "LocationFeatureSpecification", "name": "Faraday Shielded Zero-EMF Volcanic Cave Suites" },
+          { "@type": "LocationFeatureSpecification", "name": "Industrial Large-Format 3D Printed Parametric Furniture & Sanita" },
+          { "@type": "LocationFeatureSpecification", "name": "Natural Chemical-Free Eco Canyon Swimming Pool with Starlight View" },
+          { "@type": "LocationFeatureSpecification", "name": "High-Speed Starlink Satellite Connectivity" },
+          { "@type": "LocationFeatureSpecification", "name": "100% Off-Grid Solar Energy, Water, and Resource Autonomy" },
+          { "@type": "LocationFeatureSpecification", "name": "Molecular Hydrogen ($H_2$) Water Recovery & Biohacking Protocols" },
+          { "@type": "LocationFeatureSpecification", "name": "Multi-Month Sabbatical & High-Performance Confidential Work Stays" }
+        ]
+      },
+      {
+        "@type": "Accommodation",
+        "@id": "https://thesafehaven.ai/#sanctuary",
+        "name": "The Safe Haven Private Suites",
+        "description": "Subterranean high-performance living quarters merging volcanic cave geology, non-Euclidean biomimicry design, zero electromagnetic interference, and total privacy behind 3 security perimeters.",
+        "occupancy": {
+          "@type": "QuantitativeValue",
+          "value": "Long-term sabbatical / Multi-month deep work stay"
+        }
+      }
+    ]
+  };
+
   return (
     <html lang="en">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body>
         {children}
         <Analytics />
