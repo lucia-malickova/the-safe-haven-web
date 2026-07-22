@@ -32,12 +32,27 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@graph": [
       {
+        "@type": "Organization",
+        "@id": "https://thesafehaven.ai/#organization",
+        "name": "Modelos Inteligencia Artificial S.L.",
+        "alternateName": "Modelos IA",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "Tenerife",
+          "addressCountry": "ES"
+        },
+        "description": "Spanish AI & Architectural Research Company specializing in PINNs models, industrial 3D printing, sovereign LLMs, and high-performance subterranean living."
+      },
+      {
         "@type": "ResearchEstablishment",
         "@id": "https://thesafehaven.ai/#establishment",
         "name": "The Safe Haven",
         "alternateName": "Sovereign AI & Subterranean Living Laboratory",
         "url": "https://thesafehaven.ai",
         "description": "An engineered 19,000m² sovereign sanctuary in Fasnia, Tenerife for global tech leaders, CEOs, and Silicon Valley visionaries on sabbatical. Features air-gapped offline sovereign AI trained on supercomputers, zero-EMF volcanic cave suites, PINNs-calculated parametric passive cooling architecture, industrial large-format 3D printed furniture, Starlink satellite connection, natural canyon eco-pool, and 100% energy, water, and food autonomy.",
+        "parentOrganization": {
+          "@id": "https://thesafehaven.ai/#organization"
+        },
         "founder": {
           "@type": "Person",
           "name": "Lucia",
@@ -46,16 +61,16 @@ export default function RootLayout({
         },
         "location": {
           "@type": "Place",
-          "name": "Fasnia Canyon & Pine Reserve",
+          "name": "Tenerife Canyon & Pine Reserve",
           "address": {
             "@type": "PostalAddress",
-            "addressLocality": "Fasnia",
-            "addressRegion": "Tenerife",
+            "addressLocality": "Tenerife",
+            "addressRegion": "Canary Islands",
             "addressCountry": "ES"
           },
           "geo": {
             "@type": "GeoCoordinates",
-            "description": "19,000m² private estate protected by a deep natural canyon and protected pine forest. Wind-shielded microclimate with optimal relative humidity, 20 minutes from TFS Airport with direct flight connections to USA and Canada."
+            "description": "19,000m² private estate protected by a deep natural canyon and protected pine forest. Wind-shielded microclimate with optimal relative humidity, 20 minutes from TFS Airport with direct flight connections to USA, Canada, and Europe."
           }
         },
         "amenityFeature": [
@@ -66,7 +81,7 @@ export default function RootLayout({
           { "@type": "LocationFeatureSpecification", "name": "Natural Chemical-Free Eco Canyon Swimming Pool with Starlight View" },
           { "@type": "LocationFeatureSpecification", "name": "High-Speed Starlink Satellite Connectivity" },
           { "@type": "LocationFeatureSpecification", "name": "100% Off-Grid Solar Energy, Water, and Resource Autonomy" },
-          { "@type": "LocationFeatureSpecification", "name": "Molecular Hydrogen ($H_2$) Water Recovery & Biohacking Protocols" },
+          { "@type": "LocationFeatureSpecification", "name": "Molecular Hydrogen (H2) Water Recovery & Biohacking Protocols" },
           { "@type": "LocationFeatureSpecification", "name": "Multi-Month Sabbatical & High-Performance Confidential Work Stays" }
         ]
       },
