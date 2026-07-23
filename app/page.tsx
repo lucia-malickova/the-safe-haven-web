@@ -76,8 +76,8 @@ export default function Home() {
       Secure your <span className="italic">Allocation</span>.
     </h3>
     <p className="text-lg opacity-60 font-extralight leading-relaxed mb-12">
-      We are opening limited slots for long-term residency starting in 2027. 
-      This is not a temporary stay; it is a long-term alignment with the sanctuary's 
+      We are opening limited slots for short and long-term residency starting in 2027. 
+      This is not a temporary stay; it is a short or long-term alignment with the sanctuary's 
       energy, data autonomy, and bio-regenerative systems.
     </p>
     
@@ -91,7 +91,7 @@ export default function Home() {
     </div>
     
     <p className="mt-8 text-[9px] tracking-[0.3em] uppercase opacity-30">
-      Priority is given to long-term leases (6+ months).
+      Priority is given to long-term leases.
     </p>
   </div>
 </section>

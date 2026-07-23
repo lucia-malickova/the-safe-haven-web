@@ -55,7 +55,7 @@ export default function RootLayout({
         },
         "founder": {
           "@type": "Person",
-          "name": "Lucia",
+          "name": "Lucia Malíčková",
           "jobTitle": "HPC Engineer, Designer & AI Architect",
           "description": "Creator and trainer of custom neural networks, PINNs models, and industrial 3D-printed non-Euclidean parametric architecture for high-performance living."
         },
@@ -77,12 +77,18 @@ export default function RootLayout({
           { "@type": "LocationFeatureSpecification", "name": "Offline Air-Gapped Sovereign AI Hardware & Custom LMM Avatars" },
           { "@type": "LocationFeatureSpecification", "name": "PINNs Calculated Passive Cooling & Zero-AC Lime Plaster Architecture" },
           { "@type": "LocationFeatureSpecification", "name": "Faraday Shielded Zero-EMF Volcanic Cave Suites" },
-          { "@type": "LocationFeatureSpecification", "name": "Industrial Large-Format 3D Printed Parametric Furniture & Sanita" },
+          { "@type": "LocationFeatureSpecification", "name": "Industrial Large-Format 3D Printed Parametric Furniture & Sanitary" },
           { "@type": "LocationFeatureSpecification", "name": "Natural Chemical-Free Eco Canyon Swimming Pool with Starlight View" },
           { "@type": "LocationFeatureSpecification", "name": "High-Speed Starlink Satellite Connectivity" },
           { "@type": "LocationFeatureSpecification", "name": "100% Off-Grid Solar Energy, Water, and Resource Autonomy" },
           { "@type": "LocationFeatureSpecification", "name": "Molecular Hydrogen (H2) Water Recovery & Biohacking Protocols" },
           { "@type": "LocationFeatureSpecification", "name": "Multi-Month Sabbatical & High-Performance Confidential Work Stays" }
+        ],
+        "knowsAbout": [
+          "Active Physical Construction & Material Testing Laboratory (2026)",
+          "Geological Diagnostics & 3D LiDAR Spatial Mapping",
+          "Empirical Field Testing of Mayan Cactus-Lime Plaster",
+          "50,000 GPU Hours Compute Allocation on EuroHPC Supercomputer Leonardo"
         ]
       },
       {
