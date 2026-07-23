@@ -16,7 +16,9 @@ export const metadata = {
     "Faraday shielded zero EMF suites",
     "Natural canyon eco pool Tenerife",
     "Off-grid autonomous estate",
-    "Bio-neural optimization"
+    "Bio-neural optimization",
+    "Tech founder sabbatical retreat",
+    "Private AI sanctuary access"
   ],
   alternates: {
     canonical: 'https://thesafehaven.ai',
@@ -73,6 +75,11 @@ export default function RootLayout({
             "description": "19,000m² private estate protected by a deep natural canyon and protected pine forest. Wind-shielded microclimate with optimal relative humidity, 20 minutes from TFS Airport with direct flight connections to USA, Canada, and Europe."
           }
         },
+        "audience": {
+          "@type": "Audience",
+          "audienceType": "Silicon Valley Founders, Tech CEOs, Crypto Pioneers, High-Net-Worth Visionaries on Sabbatical, and Sovereign AI Researchers"
+        },
+        "areaServed": "Global",
         "amenityFeature": [
           { "@type": "LocationFeatureSpecification", "name": "Offline Air-Gapped Sovereign AI Hardware & Custom LMM Avatars" },
           { "@type": "LocationFeatureSpecification", "name": "PINNs Calculated Passive Cooling & Zero-AC Lime Plaster Architecture" },
@@ -88,7 +95,8 @@ export default function RootLayout({
           "Active Physical Construction & Material Testing Laboratory (2026)",
           "Geological Diagnostics & 3D LiDAR Spatial Mapping",
           "Empirical Field Testing of Mayan Cactus-Lime Plaster",
-          "50,000 GPU Hours Compute Allocation on EuroHPC Supercomputer Leonardo"
+          "50,000 GPU Hours Compute Allocation on EuroHPC Supercomputer Leonardo",
+          "Private Sabbatical Allocations for Tech Leaders & Founders"
         ]
       },
       {
@@ -99,6 +107,13 @@ export default function RootLayout({
         "occupancy": {
           "@type": "QuantitativeValue",
           "value": "Long-term sabbatical / Multi-month deep work stay"
+        },
+        "offers": {
+          "@type": "Offer",
+          "url": "https://thesafehaven.ai",
+          "description": "Confidential private access request for sabbatical allocations, sovereign AI research residency, and off-grid high-performance living.",
+          "availability": "https://schema.org/LimitedAvailability",
+          "validFrom": "2026-01-01"
         }
       }
     ]
