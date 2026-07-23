@@ -6,14 +6,14 @@ export default function LabPage() {
       date: "06 / 01 / 2026",
       title: "Genesis: The Counter-Movement",
       desc: "The world is arming for destruction. Safe Haven is born as the opposite—a sanctuary for regeneration and neural peace.",
-      image: "/genesis.jpg", // MÁŠ FOTKU
+      image: "/genesis.jpg",
       hasImage: true
     },
     {
       date: "07 / 01 / 2026",
       title: "The Illegal Beauty",
       desc: "First cave viewing. Legally impossible, but visually transformative. The hunt for a legitimate sanctuary begins.",
-       image: "/1.navrh.jpg", 
+      image: "/1.navrh.jpg", 
       hasImage: true
     },
     {
@@ -26,40 +26,41 @@ export default function LabPage() {
       date: "29 / 01 / 2026",
       title: "Hardware Genesis",
       desc: "First circuit alive. Moving from visual concepts to physical logic. Arduino integration for frequency control initiated.",
-      image: "/arduino.png", // MÁŠ FOTKU (prvý okruh)
+      image: "/arduino.png",
       hasImage: true
     },
     {
       date: "13 / 02 / 2026",
       title: "Friday the 13th: The Sacrifice",
       desc: "The mountain tested us—scratched the car on the narrow path to the future home. A baptism by fire.",
-      image: "/auto.jpg", // MÁŠ FOTKU (oškreté auto)
+      image: "/auto.jpg",
       hasImage: true
     },
     {
       date: "18 / 02 / 2026",
       title: "Sanctuary Secured",
       desc: "Reservation contract signed. 19,000m² of volcanic rock and silence. The work begins.",
-       image: "/dom.jpg", 
+      image: "/dom.jpg", 
       hasImage: true
     },
     {
       date: "23 / 02 / 2026",
       title: "System Online",
       desc: "The bridge is built. Safe Haven officially live on the network.",
-      image: "/web.jpeg", // MÁŠ FOTKU
+      image: "/web.jpeg",
       hasImage: true
     },
     {
       date: "24 / 02 / 2026",
       title: "Neural Uplink Initialized",
       desc: "Established official social media nodes. The mind of the sanctuary is no longer air-gapped from the public. Communication channels live: Instagram, X, TikTok, Facebook.",
-    }
+      hasImage: false
+    },
     {
       date: "09 / 03 / 2026",
       title: "EuroHPC Supercomputing Compute Access",
       desc: "Granted access to the EuroHPC AI Factory supercomputer 'Leonardo' for 50,000 GPU hours (Proposal No. EHPC-AIF-2026FL01-159) to train custom neural networks and spatial PINNs models.",
-      image: "/leonardo.jpeg", // powershell Leonardo
+      image: "/leonardo.jpeg",
       hasImage: true
     },
     {
@@ -79,7 +80,7 @@ export default function LabPage() {
       date: "05 / 04 / 2026",
       title: "Geological Diagnostics & LiDAR Scans",
       desc: "Initiated physical diagnostics using Schmidt rebound hammer, thermal imaging, ambient temperature/humidity telemetry, and high-precision 3D LiDAR spatial mapping.",
-       image: "/schmidthammer.jpg",
+      image: "/schmidthammer.jpg",
       hasImage: true
     },
     {
@@ -92,7 +93,7 @@ export default function LabPage() {
       date: "18 / 05 / 2026",
       title: "3D Printed Sanitary Prototypes",
       desc: "First parametric 3D printed sanitary and basin design concepts generated for large-format fabrication.",
-       image: "/sink.png",
+      image: "/sink.png",
       hasImage: true
     },
     {
@@ -131,11 +132,11 @@ export default function LabPage() {
       desc: "Fabricated physical 3D printed mold matrices required to cast thermodynamic passive cooling flutes (cannelures) along exterior surfaces.",
       hasImage: false
     },
-   {
+    {
       date: "08 / 07 / 2026",
       title: "Gamified Spatial VR Deployment on Site",
       desc: "Deployed interactive VR application directly on site, enabling masons to align 3D printed stencils and apply complex Mayan plaster with sub-millimeter spatial precision.",
-      video: "/vr-gamification.mp4", // Cesta k tvojmu skrátenému videu v zložke /public
+      video: "/vr-gamification.mp4",
       hasVideo: true,
       hasImage: false
     }
@@ -173,12 +174,25 @@ export default function LabPage() {
                     />
                   </div>
                 )}
+
+                {log.hasVideo && (
+                  <div className="my-6 border border-white/10 bg-zinc-950 p-1 group-hover:border-blue-500/30 transition-all duration-700 shadow-2xl">
+                    <video 
+                      src={log.video} 
+                      autoPlay 
+                      loop 
+                      muted 
+                      playsInline
+                      className="w-full h-auto opacity-80 group-hover:opacity-100 transition-all duration-1000"
+                    />
+                  </div>
+                )}
                 
-                <p className={`text-xs leading-relaxed uppercase tracking-widest transition-opacity duration-500 ${log.hasImage ? 'opacity-40 group-hover:opacity-70' : 'opacity-20 italic'}`}>
+                <p className={`text-xs leading-relaxed uppercase tracking-widest transition-opacity duration-500 ${log.hasImage || log.hasVideo ? 'opacity-40 group-hover:opacity-70' : 'opacity-20 italic'}`}>
                   {log.desc}
                 </p>
 
-                {!log.hasImage && (
+                {!log.hasImage && !log.hasVideo && (
                   <div className="mt-2 flex items-center gap-2">
                     <div className="h-[1px] w-4 bg-blue-500/30"></div>
                     <span className="text-[8px] text-blue-500/40 tracking-[0.3em]">DATA ONLY LOG</span>
