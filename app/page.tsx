@@ -72,18 +72,18 @@ export default function Home() {
 <section className="py-32 px-6 bg-blue-500/[0.02] border-y border-blue-500/10">
   <div className="max-w-4xl mx-auto text-center">
     <h2 className="text-[10px] tracking-[0.6em] uppercase text-blue-400 mb-8 font-bold">
-      Active Lab & Private Residency 2026 / 2027
+      Active Lab, Deep Work & Residencies 2026 / 2027
     </h2>
     <h3 className="text-3xl md:text-5xl font-extralight uppercase tracking-[0.2em] mb-10">
-      Secure your <span className="italic">Sabbatical Allocation</span>.
+      Secure your <span className="italic">Private Allocation</span>.
     </h3>
     <p className="text-lg opacity-80 font-extralight leading-relaxed mb-12">
-      We are actively accepting requests for <strong>flexible sabbatical stays (from 2 weeks up to multi-month deep-work residencies)</strong> as well as 2026 pilot research allocations. Step away from corporate noise and experience sovereign data autonomy, bio-regenerative cave architecture, and total cognitive recovery.
+      We are actively accepting applications for <strong>flexible stays (from 2-week deep-work sprints to multi-month residencies)</strong>. Designed for tech founders, global digital nomads, CEOs, and sovereign AI researchers who require high-performance offline infrastructure, Starlink connectivity, and bio-regenerative cave architecture to build, think, and recover without distraction.
     </p>
     
     <div className="inline-block group">
       <a 
-        href="mailto:lucy@thesafehaven.ai?subject=Sabbatical %26 Residency Access Request" 
+        href="mailto:lucy@thesafehaven.ai?subject=Deep Work %26 Residency Access Request" 
         className="px-12 py-5 border border-blue-500/30 text-[10px] tracking-[0.5em] uppercase hover:bg-blue-500 hover:text-black transition-all duration-500"
       >
         Request Private Access
@@ -91,7 +91,7 @@ export default function Home() {
     </div>
     
     <p className="mt-8 text-[9px] tracking-[0.3em] uppercase opacity-50 text-blue-400">
-      Available for flexible short-term sabbaticals (2+ weeks), pilot research stays, and multi-month residencies.
+      Available for flexible deep-work stays (2+ weeks), digital nomad retreats, and long-term sovereign residencies.
     </p>
   </div>
 </section>
