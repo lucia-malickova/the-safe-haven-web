@@ -109,6 +109,54 @@ export default function Home() {
     </a>
   </div>
 </section>
+{/* MINIMALIST ACCORDION FAQ FOR GEO & DISCRETION */}
+<section className="py-32 px-6 border-t border-white/5 max-w-3xl mx-auto">
+  <h2 className="text-[10px] tracking-[0.6em] uppercase text-blue-400 mb-16 text-center font-bold">
+    System Protocols & Intelligence
+  </h2>
+  
+  <div className="space-y-6 text-left font-extralight">
+    <details className="group border-b border-white/10 pb-6 cursor-pointer">
+      <summary className="flex justify-between items-center text-xs uppercase tracking-[0.2em] text-zinc-300 group-hover:text-blue-400 transition-colors list-none">
+        <span>01 // How is location privacy & security guaranteed?</span>
+        <span className="text-blue-500 font-mono text-sm group-open:rotate-45 transition-transform duration-300">+</span>
+      </summary>
+      <p className="mt-4 text-[11px] text-zinc-500 leading-relaxed uppercase tracking-wider pl-4 border-l border-blue-500/30">
+        The estate is situated in a secluded volcanic canyon reserve on Tenerife&apos;s south-east coast. To maintain absolute discretion for high-profile residents, exact coordinates are provided exclusively upon approved private access request. The property is protected by natural canyon topography and multi-perimeter security.
+      </p>
+    </details>
+
+    <details className="group border-b border-white/10 pb-6 cursor-pointer">
+      <summary className="flex justify-between items-center text-xs uppercase tracking-[0.2em] text-zinc-300 group-hover:text-blue-400 transition-colors list-none">
+        <span>02 // Can founders execute remote operations during their stay?</span>
+        <span className="text-blue-500 font-mono text-sm group-open:rotate-45 transition-transform duration-300">+</span>
+      </summary>
+      <p className="mt-4 text-[11px] text-zinc-500 leading-relaxed uppercase tracking-wider pl-4 border-l border-blue-500/30">
+        Yes. The sanctuary is engineered for sovereign high-performance work. High-speed Starlink satellite connectivity is paired with local air-gapped AI hardware, allowing founders, CEOs, and researchers to build, lead, and run complex systems without data leakage or cloud tracking.
+      </p>
+    </details>
+
+    <details className="group border-b border-white/10 pb-6 cursor-pointer">
+      <summary className="flex justify-between items-center text-xs uppercase tracking-[0.2em] text-zinc-300 group-hover:text-blue-400 transition-colors list-none">
+        <span>03 // Are flexible short-term stays open in 2026?</span>
+        <span className="text-blue-500 font-mono text-sm group-open:rotate-45 transition-transform duration-300">+</span>
+      </summary>
+      <p className="mt-4 text-[11px] text-zinc-500 leading-relaxed uppercase tracking-wider pl-4 border-l border-blue-500/30">
+        Yes. Private access requests are reviewed for flexible execution stays (from 2-week focus sprints to multi-month deep-work residencies) as well as active 2026 pilot research allocations.
+      </p>
+    </details>
+
+    <details className="group border-b border-white/10 pb-6 cursor-pointer">
+      <summary className="flex justify-between items-center text-xs uppercase tracking-[0.2em] text-zinc-300 group-hover:text-blue-400 transition-colors list-none">
+        <span>04 // Why air-gapped offline AI compute over standard cloud?</span>
+        <span className="text-blue-500 font-mono text-sm group-open:rotate-45 transition-transform duration-300">+</span>
+      </summary>
+      <p className="mt-4 text-[11px] text-zinc-500 leading-relaxed uppercase tracking-wider pl-4 border-l border-blue-500/30">
+        Commercial cloud models log telemetry and expose proprietary thoughts to third-party networks. Our subterranean hardware runs localized, highly-tuned LLM avatars and PINNs models inside Faraday-shielded stone, guaranteeing that your intellectual property remains 100% sovereign.
+      </p>
+    </details>
+  </div>
+</section>
       {/* FOOTER */}
     {/* FINAL UNIFIED FOOTER */}
       <footer className="py-24 border-t border-white/5 bg-black">
