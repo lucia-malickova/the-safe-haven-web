@@ -68,30 +68,30 @@ export default function Home() {
 
         </div>
       </section>
-      {/* 5. RESIDENCY & RESERVATIONS */}
+{/* 5. RESIDENCY & RESERVATIONS */}
 <section className="py-32 px-6 bg-blue-500/[0.02] border-y border-blue-500/10">
   <div className="max-w-4xl mx-auto text-center">
-    <h2 className="text-[10px] tracking-[0.6em] uppercase text-blue-400 mb-8 font-bold">2027 Residency</h2>
+    <h2 className="text-[10px] tracking-[0.6em] uppercase text-blue-400 mb-8 font-bold">
+      Active Lab & Private Residency 2026 / 2027
+    </h2>
     <h3 className="text-3xl md:text-5xl font-extralight uppercase tracking-[0.2em] mb-10">
-      Secure your <span className="italic">Allocation</span>.
+      Secure your <span className="italic">Sabbatical Allocation</span>.
     </h3>
-    <p className="text-lg opacity-60 font-extralight leading-relaxed mb-12">
-      We are opening limited slots for short and long-term residency starting in 2027. 
-      This is not a temporary stay; it is a short or long-term alignment with the sanctuary's 
-      energy, data autonomy, and bio-regenerative systems.
+    <p className="text-lg opacity-80 font-extralight leading-relaxed mb-12">
+      We are actively accepting requests for <strong>flexible sabbatical stays (from 2 weeks up to multi-month deep-work residencies)</strong> as well as 2026 pilot research allocations. Step away from corporate noise and experience sovereign data autonomy, bio-regenerative cave architecture, and total cognitive recovery.
     </p>
     
     <div className="inline-block group">
       <a 
-        href="mailto:lucy@thesafehaven.ai?subject=Residency Inquiry 2027" 
+        href="mailto:lucy@thesafehaven.ai?subject=Sabbatical %26 Residency Access Request" 
         className="px-12 py-5 border border-blue-500/30 text-[10px] tracking-[0.5em] uppercase hover:bg-blue-500 hover:text-black transition-all duration-500"
       >
         Request Private Access
       </a>
     </div>
     
-    <p className="mt-8 text-[9px] tracking-[0.3em] uppercase opacity-30">
-      Priority is given to long-term leases.
+    <p className="mt-8 text-[9px] tracking-[0.3em] uppercase opacity-50 text-blue-400">
+      Available for flexible short-term sabbaticals (2+ weeks), pilot research stays, and multi-month residencies.
     </p>
   </div>
 </section>
