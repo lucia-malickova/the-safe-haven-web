@@ -78,7 +78,7 @@ export default function Home() {
       Secure your <span className="italic">Private Allocation</span>.
     </h3>
     <p className="text-lg opacity-80 font-extralight leading-relaxed mb-12">
-      We are actively accepting applications for <strong>flexible stays (from 2-week deep-work sprints to multi-month residencies)</strong>. Designed for tech founders, global digital nomads, CEOs, and sovereign AI researchers who require high-performance offline infrastructure, Starlink connectivity, and bio-regenerative cave architecture to build, think, and recover without distraction.
+      We are actively accepting applications for <strong>flexible stays (from weeks of deep-work sprints to multi-month residencies)</strong>. Designed for tech founders, global digital nomads, CEOs, and sovereign AI researchers who require high-performance offline infrastructure, Starlink connectivity, and bio-regenerative cave architecture to build, think, and recover without distraction.
     </p>
     
     <div className="inline-block group">
