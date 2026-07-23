@@ -55,6 +55,90 @@ export default function LabPage() {
       title: "Neural Uplink Initialized",
       desc: "Established official social media nodes. The mind of the sanctuary is no longer air-gapped from the public. Communication channels live: Instagram, X, TikTok, Facebook.",
     }
+    {
+      date: "09 / 03 / 2026",
+      title: "EuroHPC Supercomputing Compute Access",
+      desc: "Granted access to the EuroHPC AI Factory supercomputer 'Leonardo' for 50,000 GPU hours (Proposal No. EHPC-AIF-2026FL01-159) to train custom neural networks and spatial PINNs models.",
+      image: "/leonardo.jpeg", // powershell Leonardo
+      hasImage: true
+    },
+    {
+      date: "19 / 03 / 2026",
+      title: "Avatar Genesis: Expectations vs. Reality",
+      desc: "LMM deployment protocol. Left: Target result. Center: Horrifying glitches during training—Artifact 01 'Strašidlo'. Right: Sheldon Irony Threshold reached after critical GPU usage. Neural peace requires sacrifice.",
+      image: "/lucy1.png",
+      hasImage: true
+    },
+    {
+      date: "31 / 03 / 2026",
+      title: "Sanctuary Officially Acquired",
+      desc: "Signed final purchase agreement for 19,000m² of land in Fasnia, Tenerife, featuring an ancient country house and natural cave systems.",
+      hasImage: false
+    },
+    {
+      date: "05 / 04 / 2026",
+      title: "Geological Diagnostics & LiDAR Scans",
+      desc: "Initiated physical diagnostics using Schmidt rebound hammer, thermal imaging, ambient temperature/humidity telemetry, and high-precision 3D LiDAR spatial mapping.",
+       image: "/schmidthammer.jpg",
+      hasImage: true
+    },
+    {
+      date: "16 / 04 / 2026",
+      title: "Facade Optimization Neural Net Trained",
+      desc: "Successfully trained specialized neural network predicting the ideal chemical and thermodynamic composition for natural breathable facades.",
+      hasImage: false
+    },
+    {
+      date: "18 / 05 / 2026",
+      title: "3D Printed Sanitary Prototypes",
+      desc: "First parametric 3D printed sanitary and basin design concepts generated for large-format fabrication.",
+       image: "/sink.png",
+      hasImage: true
+    },
+    {
+      date: "21 / 05 / 2026",
+      title: "Mayan Organic Polymer Formulation",
+      desc: "Evolved traditional Roman lime formulas into a bio-inspired Mayan plaster matrix utilizing natural opuntia mucilage (cactus polysaccharides) for moisture control.",
+      hasImage: false
+    },
+    {
+      date: "25 / 05 / 2026",
+      title: "On-Site Laboratory Material Tests",
+      desc: "Direct field application of the Mayan plaster matrix onto existing volcanic walls for empirical structural and humidity stress testing.",
+      hasImage: false
+    },
+    {
+      date: "28 / 05 / 2026",
+      title: "Generative Bed & Workstation Topology",
+      desc: "Neural network engineered a seamless generative daybed and ergonomic computer workstation growing organically out of a single parametric seed structure.",
+      hasImage: false
+    },
+    {
+      date: "04 / 06 / 2026",
+      title: "Corporate Legal Entity: Modelos IA S.L.",
+      desc: "Incorporated 'Modelos Inteligencia Artificial S.L.' in Tenerife and secured Spanish domain infrastructure (.es) to back sovereign AI, PINNs modeling, and large-format 3D architecture.",
+      hasImage: false
+    },
+    {
+      date: "26 / 06 / 2026",
+      title: "FGF Industrial 3D Printer Order & Print Test",
+      desc: "Printed first sanitary unit using Fused Granulate Fabrication (FGF) and officially commissioned custom industrial-grade FGF 3D printer for construction.",
+      hasImage: false
+    },
+    {
+      date: "29 / 06 / 2026",
+      title: "3D Printed Matrix Stencils for Cannelures",
+      desc: "Fabricated physical 3D printed mold matrices required to cast thermodynamic passive cooling flutes (cannelures) along exterior surfaces.",
+      hasImage: false
+    },
+   {
+      date: "08 / 07 / 2026",
+      title: "Gamified Spatial VR Deployment on Site",
+      desc: "Deployed interactive VR application directly on site, enabling masons to align 3D printed stencils and apply complex Mayan plaster with sub-millimeter spatial precision.",
+      video: "/vr-gamification.mp4", // Cesta k tvojmu skrátenému videu v zložke /public
+      hasVideo: true,
+      hasImage: false
+    }
   ];
 
   return (
