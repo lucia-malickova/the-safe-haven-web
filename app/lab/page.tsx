@@ -160,8 +160,8 @@ export default function LabPage() {
               <div className="absolute w-2 h-2 bg-blue-500 rounded-full -left-[4px] top-1 shadow-[0_0_10px_#3b82f6]"></div>
               
               <div className="flex flex-col gap-2">
-                <span className="text-[10px] font-mono opacity-30 text-blue-400">{log.date}</span>
-                <h2 className="text-xl tracking-widest uppercase text-white/90 group-hover:text-blue-400 transition-colors">
+                <span className="text-[10px] font-mono opacity-60 text-blue-400">{log.date}</span>
+                <h2 className="text-xl tracking-widest uppercase text-white font-normal group-hover:text-blue-400 transition-colors">
                   {log.title}
                 </h2>
                 
@@ -170,7 +170,7 @@ export default function LabPage() {
                     <img 
                       src={log.image} 
                       alt={log.title} 
-                      className="w-full h-auto opacity-60 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-1000"
+                      className="w-full h-auto opacity-80 grayscale group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-1000"
                     />
                   </div>
                 )}
@@ -188,14 +188,16 @@ export default function LabPage() {
                   </div>
                 )}
                 
-                <p className={`text-xs leading-relaxed uppercase tracking-widest transition-opacity duration-500 ${log.hasImage || log.hasVideo ? 'opacity-40 group-hover:opacity-70' : 'opacity-20 italic'}`}>
+                {/* Zvýraznený a plne čitateľný podnadpis/popis */}
+                <p className="text-xs leading-relaxed uppercase tracking-widest text-zinc-300 opacity-80 group-hover:opacity-100 transition-opacity duration-300">
                   {log.desc}
                 </p>
 
+                {/* Zobraziť DATA ONLY LOG iba pri riadkoch, ktoré nemajú ani fotku, ani video */}
                 {!log.hasImage && !log.hasVideo && (
                   <div className="mt-2 flex items-center gap-2">
-                    <div className="h-[1px] w-4 bg-blue-500/30"></div>
-                    <span className="text-[8px] text-blue-500/40 tracking-[0.3em]">DATA ONLY LOG</span>
+                    <div className="h-[1px] w-4 bg-blue-500/50"></div>
+                    <span className="text-[8px] text-blue-400/60 tracking-[0.3em]">DATA ONLY LOG</span>
                   </div>
                 )}
               </div>
